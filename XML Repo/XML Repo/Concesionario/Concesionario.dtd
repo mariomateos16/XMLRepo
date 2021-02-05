@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<!--
+    TODO define vocabulary identification
+    PUBLIC ID: -//vendor//vocabulary//EN
+    SYSTEM ID: http://server/path/Concesionario.dtd
+
+-->
+
+<!--
+    An example how to use this DTD from your XML document:
+
+    <?xml version="1.0"?>
+
+    <!DOCTYPE Concesionario SYSTEM "Concesionario.dtd">
+
+    <Concesionario>
+    ...
+    </Concesionario>
+-->
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT Concesionario (coche)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT coche (codigo|marca|modelo|matricula|potencia|plazas|numPuertas)*>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT codigo (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT marca (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT modelo (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT matricula (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT potencia (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT plazas (#PCDATA)>
+
+<!--- Put your DTDDoc comment here. -->
+<!ELEMENT numPuertas (#PCDATA)>
