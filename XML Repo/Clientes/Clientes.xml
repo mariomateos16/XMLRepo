@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE clientes SYSTEM "clientes.dtd">
+<clientes>
+    <sede codigo="A6476244">
+        <direccion></direccion>
+        <empleado></empleado>
+        <fecha></fecha>
+        <descripcion></descripcion>
+        <cliente codigo="MMM-576">
+            <num_viviendas></num_viviendas>
+            <coste_viviendas></coste_viviendas>
+            <res_viviendas></res_viviendas>
+            <plazo></plazo>
+        </cliente>
+    </sede>
+</clientes>
